@@ -1,44 +1,20 @@
-<p align="center">
-  <img src="https://www.joaopedro.cc/img/github/typescript-gatsby-starter.png" alt="Gatsby and TypeScript">
-</p>
+# GatsbyJS Typescript Boilerplate
 
-<p align="center">
-  <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&style=for-the-badge&color=24B36B&labelColor=000000" alt="PRs welcome!" />
+A TypeScript starter for GatsbyJS. No plugins and styling. Exactly the necessary to start.
 
-  <img alt="License" src="https://img.shields.io/github/license/jpedroschmitz/gatsby-starter-ts?style=for-the-badge&color=24B36B&labelColor=000000">
-
-  <a href="https://twitter.com/intent/follow?screen_name=jpedroschmitz">
-    <img src="https://img.shields.io/twitter/follow/jpedroschmitz?style=for-the-badge&color=24B36B&labelColor=000000" alt="Follow @jpedroschmitz" />
-  </a>
-</p>
-
-<br>
-
-A TypeScript starter for Gatsby. No plugins and styling. Exactly the necessary to start 🔥
-
-No plugins installed, great for advanced users.
-
-- 📏 **ESLint** — Pluggable JavaScript linter
-- 💖 **Prettier** - Opinionated Code Formatter
-- 🐶 **Husky** — Use git hooks with ease
-- 📄 **Commitizen** - Conventional commit messages CLI
-- 🚓 **Commitlint** - Lint commit messages
-- 🖌 **Renovate** - Dependency update tool
-- 🚫 **lint-staged** - Run linters against staged git files
-- 🗂 **Root import** - Import folders and files using the `@` prefix.
+- [Typescript](https://www.typescriptlang.org/)
+- Linting with [ESLint](https://eslint.org/)
+- Formatting with [Prettier](https://prettier.io/)
+- Linting, typechecking and formatting on by default using [`husky`](https://github.com/typicode/husky) for commit hooks
+- Testing with [Jest](https://jestjs.io/) and [`react-testing-library`](https://testing-library.com/docs/react-testing-library/intro)
+- [Renovate](https://www.whitesourcesoftware.com/free-developer-tools/renovate)
 
 ## 🚀 Getting started
 
-The best way to start with this template is using the Gatsby CLI.
-
-```
-npx gatsby new starter-ts https://github.com/jpedroschmitz/gatsby-starter-ts
-```
-
-If you prefer you can clone this repository and run the following commands inside the project folder:
+The best way to start is to git clone this repository and run the following commands inside the project folder:
 
 1. `npm install` or `yarn`;
-2. `yarn start`;
+2. `npm dev`;
 
 To view the project you can open `http://localhost:8000`.
 
@@ -57,4 +33,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ---
 
-Made with ♥ by João Pedro Schmitz
+Inspired by João Pedro Schmitz's [gatsby-starter-ts's template](https://github.com/jpedroschmitz/gatsby-starter-ts)
