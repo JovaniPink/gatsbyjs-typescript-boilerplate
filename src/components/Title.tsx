@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 
 const Title: React.FC = () => <h1>Hello TypeScript!</h1>;
 
